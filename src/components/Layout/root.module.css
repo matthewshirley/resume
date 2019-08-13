@@ -1,0 +1,13 @@
+/**
+ * Grid layout for root page
+ **/
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "Header"
+        "Row"
+        "Row"
+        "Row";
+}

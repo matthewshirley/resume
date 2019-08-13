@@ -1,0 +1,31 @@
+/**
+ * Grid layout for the Page Header
+ **/
+.container {
+    display: grid;
+    grid-area: Header;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "Name Name Contact";
+}
+
+@media (max-width: 720px) {
+    .container {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "Name Contact";
+    }
+
+    .Contact {
+        grid-area: Contact;
+    }
+}
+
+.Name {
+    grid-area: Name;
+}
+
+.Contact {
+    grid-area: Contact;
+    text-align: right;
+}

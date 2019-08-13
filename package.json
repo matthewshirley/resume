@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "@mattshirley/resume",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Over-engineered resume that saves myself from intalling Office 365",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Matt Shirley <me@mattshirley.net>",
   "dependencies": {
+    "@mattshirley/design": "https://github.com/matthewshirley/design",
     "gatsby": "^2.13.3",
     "gatsby-image": "^2.2.4",
     "gatsby-plugin-manifest": "^2.2.1",
@@ -12,17 +13,28 @@
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-plugin-sharp": "^2.2.2",
     "gatsby-source-filesystem": "^2.1.2",
+    "gatsby-transformer-json": "^2.2.0",
     "gatsby-transformer-sharp": "^2.2.1",
+    "mkdirp": "^0.5.1",
+    "paper-css": "^0.4.1",
     "prop-types": "^15.7.2",
+    "puppeteer": "^1.18.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
+    "eslint": "5.3.0",
+    "eslint-config-airbnb": "17.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
     "prettier": "^1.18.2"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "resume"
   ],
   "license": "MIT",
   "scripts": {
@@ -31,6 +43,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
+    "pdf": "node scripts/pageToPDF.js",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "repository": {

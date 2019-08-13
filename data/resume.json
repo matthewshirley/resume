@@ -1,0 +1,92 @@
+{
+
+    "basics": {
+        "name": "Matt Shirley",
+        "label": "",
+        "picture": "",
+        "email": "me@mattshirley.net",
+        "phone": "+1 (778) 680 2105",
+        "website": "http://mattshirley.net",
+        "summary": "Tester and developer experienced in JavaScript, React and Python.",
+        "location": "British Columbia, Canada",
+        "profiles": [{
+            "network": "Twitter",
+            "username": "itsthatmatt",
+            "url": "http://twitter.com/itsthatmatt"
+        }]
+    },
+    "work": [{
+        "company": "Thoughtexchange",
+        "position": "Software Tester",
+        "website": "http://thoughtexchange.com",
+        "location": "Rossland, BC",
+        "startDate": "2018-01-01",
+        "endDate": null,
+        "summary": "",
+        "highlights": [
+            "Developed and maintained an end-to-end functional and integration test framework (Python, JavaScript)",
+            "Created ChatOps tool to support the team in data creation and test processes (JavaScript)",
+            "Mentored testers in learning JavaScript, test development and processes",
+            "Implemented a context-driven, risk-based test process to ensure accountability while performing exploratory testing",
+            "Championed developing an accessibility culture within the development team"
+        ]
+    },
+    {
+        "company": "Huddol",
+        "position": "Front-end Developer (Contract)",
+        "website": "http://huddol.com",
+        "location": "Remote",
+        "startDate": "2018-08-01",
+        "endDate": null,
+        "summary": "",
+        "highlights": [
+            "Reduced backlog and implemented small features for a web application (React, PHP, JavaScript)",
+            "Implemented a unit and functional front-end test suite (React, JavaScript)",
+            "Analyzed development risk and performed exploratory testing on major builds"
+        ]
+    },
+    {
+        "company": "Freelance & Travel",
+        "position": "Web Developer",
+        "website": "http://mattshirley.net",
+        "location": "Remote",
+        "startDate": "2015-10-01",
+        "endDate": "2017-01-01",
+        "summary": "Traveled throughout Canada while working seasonly and as a web developer.",
+        "highlights": [
+            "Developed small web applications for clients located in APAC (React, JavaScript)",
+            "Continued employment with Asia Pacific Digital providing technical consultation (JavaScript)",
+            "Worked seasonally as a Ski Lift Operator and volunteered for a variety of causes in local communities"
+        ]
+    },
+    {
+        "company": "Asia Pacific Digital",
+        "position": "Support Engineer",
+        "website": "http://www.apdgroup.com",
+        "location": "Melbourne, AU",
+        "startDate": "2014-07-01",
+        "endDate": "2015-10-01",
+        "summary": "",
+        "highlights": [
+            "Improved existing functionality by resolving bugs for a legacy web-application (JavaScript, PHP, SQL)",
+            "Oversaw the operations of Linux servers and observed functions to detect any possible errors",
+            "Communicated and performed troubleshooting with users to resolve defects"
+        ]
+    }],
+    "education": [{
+        "institution": "TafeNSW",
+        "area": "Systems Analysis and Design",
+        "studyType": "Diploma",
+        "startDate": "2016-01-01",
+        "endDate": "2017-06-01",
+        "gpa": "0",
+        "courses": "Gathered fundamental understanding of database design, system modelling, test processes and web development."
+    }],
+    "awards": [],
+    "skills": ["JavaScript", "React", "Jest", "Cypress", "Puppeteer", "Python", "Ruby", "Software Testing"],
+    "languages": [],
+    "interests": [],
+    "volunteer": [],
+    "references": [],
+    "publications": []
+}
