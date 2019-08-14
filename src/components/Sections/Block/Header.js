@@ -20,7 +20,7 @@ const renderCompany = ({ website, company }) => {
 const Header = ({
   company, position, website, location, startDate, endDate,
 }) => {
-  const isPresent = endDate === false || endDate === 'Invalid date';
+  const isPresent = endDate === false || endDate === 'Jan 1900'; // TODO: Multiple GraphQL types?
   const formattedEndDate = isPresent ? 'Present' : endDate;
 
   return (

@@ -15,7 +15,7 @@
             "website": "http://thoughtexchange.com",
             "location": "Rossland, BC",
             "startDate": "2018-01-01",
-            "endDate": false,
+            "endDate": "1900-01-01",
             "summary": "",
             "highlights": [
                 "Developed and maintained a functional and integration test framework for multiple application (Python, JavaScript)",
