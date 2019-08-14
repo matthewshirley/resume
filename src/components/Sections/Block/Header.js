@@ -5,11 +5,23 @@ import { Text } from '@mattshirley/design/src/components/Text';
 import { Box } from '@mattshirley/design/src/components/Layout/Box';
 import { Flex } from '@mattshirley/design/src/components/Layout/Flex';
 
+const renderCompany = ({ website, company }) => {
+  if (website) {
+    return (
+      <a href={website} target="_blank" rel="noopener noreferrer">
+        {company}
+      </a>
+    );
+  }
+
+  return (company);
+};
+
 const Header = ({
   company, position, website, location, startDate, endDate,
 }) => {
-  const formattedStartDate = startDate;
-  const formattedEndDate = endDate || 'Present';
+  const isPresent = endDate === false || endDate === 'Invalid date';
+  const formattedEndDate = isPresent ? 'Present' : endDate;
 
   return (
     <Flex justifyContent="space-between" mb={2}>
@@ -18,18 +30,12 @@ const Header = ({
           {position}
         </Text>
         <Text as="small" fontSize={0}>
-          <a href={website} target="_blank" rel="noopener noreferrer">
-            {company}
-          </a>
+          {renderCompany({ website, company })}
           {location && ` - ${location}`}
         </Text>
       </Box>
       <Text fontSize={0}>
-        {formattedStartDate}
-        {' '}
-        -
-        {' '}
-        {formattedEndDate}
+        {`${startDate} - ${formattedEndDate}`}
       </Text>
     </Flex>
   );
@@ -38,15 +44,18 @@ const Header = ({
 Header.propTypes = {
   company: PropTypes.string.isRequired,
   position: PropTypes.string.isRequired,
-  website: PropTypes.string.isRequired,
   startDate: PropTypes.string.isRequired,
-  endDate: PropTypes.oneOf([
-    PropTypes.bool, PropTypes.string]).isRequired,
+  endDate: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.bool,
+  ]).isRequired,
   location: PropTypes.string,
+  website: PropTypes.string,
 };
 
 Header.defaultProps = {
   location: '',
+  website: '',
 };
 
 export default Header;

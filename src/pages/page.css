@@ -1,11 +1,8 @@
+/**
+ * Override in design since this is @mattshirley/design is WIP
+ */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {
   font-family: 'Open Sans', sans-serif;
 }
-
-/* @media print {
-  a:after {
-    content: "("attr(href)")";
-  }
-} */

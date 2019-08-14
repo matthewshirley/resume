@@ -1,14 +1,15 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Box } from '@mattshirley/design/src/components/Layout/Box';
 
 import workTypes from '../../types/work';
 
 import Header from './Block/Header';
 import Content from './Block/Content';
+import List from './Block/List';
 
 /**
- * Block to display order and display a persons
- * work and experience history.
+ * Block to display work experience.
  *
  * @param {Object} props
  * @param {Object} props.company
@@ -30,15 +31,17 @@ const Experience = ({ work }) => work.map((entry, index) => (
       startDate={entry.startDate}
       endDate={entry.endDate}
     />
-    <Content
-      summary={entry.summary}
-      highlights={entry.highlights}
-    />
+    {entry.summary && <Content summary={entry.summary} />}
+    {entry.highlights && <List highlights={entry.highlights} />}
   </Box>
 ));
 
 Experience.propTypes = {
-  ...workTypes,
+  work: PropTypes.arrayOf(
+    PropTypes.shape({
+      ...workTypes,
+    }),
+  ),
 };
 
 export default Experience;

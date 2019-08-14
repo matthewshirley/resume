@@ -20,13 +20,17 @@ const PageHeader = ({
 }) => (
   <Box as="header" className={headerGrid.container} mb={6}>
     <Box className={headerGrid.Name}>
-      <Text as="H1" color="primary">{name}</Text>
+      <Text as="h1" color="primary">{name}</Text>
       <Text as="small">{label}</Text>
     </Box>
     <Box className={headerGrid.Contact}>
       <Flex flexDirection="column">
-        <Text as="small">{email}</Text>
-        <Text as="small">{phone}</Text>
+        <a href={`mailto:${email}`}>
+          <Text as="small">{email}</Text>
+        </a>
+        <a href={`tel:${phone}`}>
+          <Text as="small">{phone}</Text>
+        </a>
       </Flex>
     </Box>
   </Box>

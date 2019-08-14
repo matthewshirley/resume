@@ -4,28 +4,14 @@ import PropTypes from 'prop-types';
 import { Text } from '@mattshirley/design/src/components/Text';
 import { Box } from '@mattshirley/design/src/components/Layout/Box';
 
-import List from './List';
-
-
-const Content = ({
-  summary, highlights,
-}) => (
+const Content = ({ summary }) => (
   <Box>
-    {summary && <Text fontSize={1}>{summary}</Text>}
-    {highlights && <List highlights={highlights} />}
+    <Text fontSize={1}>{summary}</Text>
   </Box>
 );
 
 Content.propTypes = {
-  summary: PropTypes.string,
-  highlights: [
-    PropTypes.string,
-  ],
-};
-
-Content.defaultProps = {
-  summary: '',
-  highlights: [],
+  summary: PropTypes.string.isRequired,
 };
 
 export default Content;

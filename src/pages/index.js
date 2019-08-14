@@ -1,5 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import PropTypes from 'prop-types';
 
 // Layout
 import Row from '../components/Layout/Row';
@@ -10,6 +11,10 @@ import PageHeader from '../components/Layout/Header';
 import About from '../components/Sections/About';
 import Education from '../components/Sections/Education';
 import Experience from '../components/Sections/Experience';
+
+// Types
+import workTypes from '../types/work';
+import educationTypes from '../types/education';
 
 import './page.css';
 
@@ -54,19 +59,29 @@ const CVPage = ({ data: { allDataJson } }) => {
 };
 
 CVPage.propTypes = {
-  data: {
-    allDataJson: {
-      edges: [
-        {
-          node: {
-            basics: PageHeader.propTypes.isRequired,
-            education: Education.propTypes.isRequired,
-            work: Experience.propTypes.isRequired,
-          },
-        },
-      ],
-    },
-  }.isRequired,
+  data: PropTypes.shape({
+    allDataJson: PropTypes.shape({
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: PropTypes.shape({
+            basics: PropTypes.shape({
+              name: PropTypes.string.isRequired,
+              label: PropTypes.string,
+              email: PropTypes.string,
+              phone: PropTypes.string,
+              summary: PropTypes.string,
+            }),
+            education: PropTypes.arrayOf(
+              PropTypes.shape({ ...educationTypes }),
+            ),
+            work: PropTypes.arrayOf(
+              PropTypes.shape({ ...workTypes }),
+            ),
+          }),
+        }),
+      ),
+    }),
+  }).isRequired,
 };
 
 /**
@@ -100,6 +115,7 @@ export const pageQuery = graphql`
           startDate(formatString: "MMM YYYY")
           endDate(formatString: "MMM YYYY")
           institution
+          website
           studyType
           area
           courses

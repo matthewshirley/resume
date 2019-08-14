@@ -19,9 +19,9 @@ const List = ({
 };
 
 List.propTypes = {
-  highlights: [
-    PropTypes.string.isRequired,
-  ].isRequired,
+  highlights: PropTypes.arrayOf(
+    PropTypes.string,
+  ).isRequired,
 };
 
 export default List;
