@@ -839,10 +839,10 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
-"@mattshirley/design@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@mattshirley/design/-/design-0.0.2.tgz#33558d5f75db679a858a77645f53e8a948cbf856"
-  integrity sha512-XSzm2/MJLGZJrM83O27slvUOdKuRliNXq4Lm4iQHiU+xIWfjDejwz/pM2wpn7en5BBWHmZ52xE5M+s2XsHCV3A==
+"@mattshirley/design@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@mattshirley/design/-/design-0.0.3.tgz#33ce5b62a48889259a465d3836a9ce6600148aa5"
+  integrity sha512-z0E90sUb42mreZjCT+nmuBIpR1bEyg3Nyj3Ved2DSQUGw/x/nVvE/PoQLa47PQh/xGSdZd0ETj7xPUklQELUMw==
   dependencies:
     palx "^1.0.3"
     polished "^3.4.1"
@@ -4513,6 +4513,14 @@ gatsby-page-utils@^0.0.5:
     lodash "^4.17.14"
     micromatch "^3.1.10"
     slash "^1.0.0"
+
+gatsby-plugin-compile-es6-packages@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-compile-es6-packages/-/gatsby-plugin-compile-es6-packages-2.1.0.tgz#eb6068d8936fd8b404716e47b821d09bf0656af7"
+  integrity sha512-yrYAAjabHWJr3ARi8xzDm01dbBfyOxEWTwGkL3BMdgL/opfLvTrwLmfium4kSelnLs70DYY3rYDwyHjqyFsnFQ==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    regex-escape "^3.4.8"
 
 gatsby-plugin-page-creator@^2.1.5:
   version "2.1.5"
@@ -8417,6 +8425,11 @@ regenerator-transform@^0.14.0:
   integrity sha512-flVuee02C3FKRISbxhXl9mGzdbWUVHubl1SMaknjxkFB1/iqpJhArQUvRxOOPEc/9tAiX0BaQ28FJH10E4isSQ==
   dependencies:
     private "^0.1.6"
+
+regex-escape@^3.4.8:
+  version "3.4.9"
+  resolved "https://registry.yarnpkg.com/regex-escape/-/regex-escape-3.4.9.tgz#407b413562e2373d56994ff213e693658ea4f8f7"
+  integrity sha512-Cv9rjwyQwVhn3L097ysanWsEElurmxDj6Cc4Ut23z7e6hzRbrNvF3Le7yAciMfuzyb0sZwSr0ZHunMNCIoy2/g==
 
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"

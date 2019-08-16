@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Matt Shirley <me@mattshirley.net>",
   "dependencies": {
-    "@mattshirley/design": "^0.0.2",
+    "@mattshirley/design": "^0.0.3",
     "gatsby": "^2.13.3",
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-source-filesystem": "^2.1.2",
@@ -32,7 +32,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "postbuild": "NODE_ENV=production node scripts/pageToPDF.js",
+    "postbuild": "node scripts/pageToPDF.js",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
