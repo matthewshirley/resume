@@ -23,7 +23,7 @@ const Header = ({
   return (
     <Flex justifyContent="space-between" mb={2}>
       <Box>
-        <Text fontSize={1} m={0} bold>
+        <Text fontSize={1} m={0} mr={1} bold>
           {position}
         </Text>
         <Text as="small" fontSize={0} m={0}>
