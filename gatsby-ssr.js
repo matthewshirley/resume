@@ -3,5 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/ssr-apis/
  */
+import Root from './src/components/Layout/Root';
 
-// You can delete this file if you're not using it
+/* eslint-disable-next-line import/prefer-default-export */
+export const wrapPageElement = Root;

@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Text } from '@mattshirley/design/src/components/Text';
-import { Box } from '@mattshirley/design/src/components/Layout/Box';
+import { Box, Text } from '@mattshirley/design';
 
 const Content = ({ summary }) => (
   <Box>
-    <Text fontSize={1}>{summary}</Text>
+    <Text fontSize={1} m={0}>{summary}</Text>
   </Box>
 );
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box } from '@mattshirley/design/src/components/Layout/Box';
+import { Box } from '@mattshirley/design';
 
 import educationTypes from '../../types/education';
 
@@ -26,7 +26,7 @@ const Education = ({ education }) => education.map((study, index) => {
   const award = `${studyType} of ${area}`;
 
   return (
-    <Box key={index} mb={5}>
+    <Box key={index} mb={4}>
       <Header position={award} company={institution} startDate={startDate} endDate={endDate} />
       {courses && <Content summary={courses} />}
     </Box>

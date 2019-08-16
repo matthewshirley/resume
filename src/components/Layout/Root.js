@@ -7,26 +7,20 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-
-import { ThemeProvider } from 'styled-components';
-import theme from '@mattshirley/design/src/components/Theme';
-import { GlobalStyle, FontsCss } from '@mattshirley/design/src/components/Providers/Theme';
-import { Box } from '@mattshirley/design/src/components/Layout/Box';
+import { Box, ThemeProvider } from '@mattshirley/design';
 
 import rootStyle from './root.module.css';
 
-const Layout = ({ children }) => (
-  <ThemeProvider theme={{ breakpoints: ['720px', '1024px'], ...theme }} webfonts>
-    <Box className={rootStyle.container} p={4} my={6} mx={[6, 'auto']} maxWidth={['auto', '52rem']}>
-      <GlobalStyle />
-      <FontsCss />
-      {children}
+const Layout = ({ element }) => (
+  <ThemeProvider>
+    <Box className={rootStyle.container} p={5} my={4} mx={[4, 'auto']} maxWidth={['auto', '52rem']}>
+      {element}
     </Box>
   </ThemeProvider>
 );
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  element: PropTypes.node.isRequired,
 };
 
 export default Layout;

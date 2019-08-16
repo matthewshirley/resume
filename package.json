@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Matt Shirley <me@mattshirley.net>",
   "dependencies": {
-    "@mattshirley/design": "https://github.com/matthewshirley/design",
+    "@mattshirley/design": "^0.0.2",
     "gatsby": "^2.13.3",
     "gatsby-plugin-react-helmet": "^3.1.0",
     "gatsby-source-filesystem": "^2.1.2",
@@ -15,8 +15,7 @@
     "puppeteer": "^1.18.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1",
-    "styled-components": "^4.3.2"
+    "react-helmet": "^5.2.1"
   },
   "devDependencies": {
     "eslint": "5.3.0",

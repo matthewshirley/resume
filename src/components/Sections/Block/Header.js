@@ -1,9 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-import { Text } from '@mattshirley/design/src/components/Text';
-import { Box } from '@mattshirley/design/src/components/Layout/Box';
-import { Flex } from '@mattshirley/design/src/components/Layout/Flex';
+import { Box, Flex, Text } from '@mattshirley/design';
 
 const renderCompany = ({ website, company }) => {
   if (website) {
@@ -26,15 +23,15 @@ const Header = ({
   return (
     <Flex justifyContent="space-between" mb={2}>
       <Box>
-        <Text fontSize={1} bold>
+        <Text fontSize={1} m={0} bold>
           {position}
         </Text>
-        <Text as="small" fontSize={0}>
+        <Text as="small" fontSize={0} m={0}>
           {renderCompany({ website, company })}
           {location && ` - ${location}`}
         </Text>
       </Box>
-      <Text fontSize={0}>
+      <Text fontSize={0} m={0}>
         {`${startDate} - ${formattedEndDate}`}
       </Text>
     </Flex>

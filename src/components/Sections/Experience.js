@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box } from '@mattshirley/design/src/components/Layout/Box';
+import { Box } from '@mattshirley/design';
 
 import workTypes from '../../types/work';
 
@@ -22,7 +22,7 @@ import List from './Block/List';
  * @param {Object} props.highlights
  */
 const Experience = ({ work }) => work.map((entry, index) => (
-  <Box key={index} mb={5}>
+  <Box key={index} mb={4}>
     <Header
       company={entry.company}
       position={entry.position}

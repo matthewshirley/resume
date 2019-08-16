@@ -1,10 +1,10 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
 // Layout
 import Row from '../components/Layout/Row';
-import Root from '../components/Layout/Root';
 import PageHeader from '../components/Layout/Header';
 
 // Sections
@@ -16,9 +16,7 @@ import Experience from '../components/Sections/Experience';
 import workTypes from '../types/work';
 import educationTypes from '../types/education';
 
-import './page.css';
-
-const CVPage = ({ data: { allDataJson } }) => {
+const Resume = ({ data: { allDataJson } }) => {
   const {
     basics, education, work,
   } = allDataJson.edges[0].node;
@@ -27,7 +25,13 @@ const CVPage = ({ data: { allDataJson } }) => {
   } = basics;
 
   return (
-    <Root>
+    <>
+      <Helmet
+        htmlAttributes={{
+          lang: 'en',
+        }}
+        title="Matt Shirley - Resume"
+      />
       <PageHeader
         name={name}
         label={label}
@@ -54,11 +58,11 @@ const CVPage = ({ data: { allDataJson } }) => {
           <Education education={education} />
         </Row>
         )}
-    </Root>
+    </>
   );
 };
 
-CVPage.propTypes = {
+Resume.propTypes = {
   data: PropTypes.shape({
     allDataJson: PropTypes.shape({
       edges: PropTypes.arrayOf(
@@ -125,4 +129,4 @@ export const pageQuery = graphql`
   }
 }`;
 
-export default CVPage;
+export default Resume;
