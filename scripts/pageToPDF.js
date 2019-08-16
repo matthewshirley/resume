@@ -8,15 +8,18 @@ const puppeteer = require('puppeteer');
  * @param {String} server
  * @returns {Promise}
  */
-const createPDF = async (server = 'http://localhost:8000') => {
+const createPDF = async () => {
+  let server;
   let filename;
   let outputDirectory;
 
   // # Determine what to call the file
   if (process.env.NODE_ENV === 'production') {
+    server = 'https://resume.mattshirley.net';
     filename = 'resume.pdf';
     outputDirectory = path.resolve(__dirname, '..', 'public', 'prod');
   } else {
+    server = 'http://localhost:8000';
     filename = `Resume - ${Date.now()}.pdf`;
     outputDirectory = path.resolve(__dirname, '..', 'public', 'staging');
   }
@@ -40,6 +43,5 @@ const createPDF = async (server = 'http://localhost:8000') => {
 
   return browser.close();
 };
-
 
 createPDF();
