@@ -4,11 +4,15 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { ThemeProvider } from '@mattshirley/design';
+import { Box, ThemeProvider } from '@mattshirley/design';
+
+import rootStyle from './root.module.css';
 
 const Root = ({ element }) => (
   <ThemeProvider>
-    {element}
+    <Box className={rootStyle.container} p={[4, 5]} my={4} mx={[0, 'auto']} maxWidth={['auto', '52rem']}>
+      {element}
+    </Box>
   </ThemeProvider>
 );
 

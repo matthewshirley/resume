@@ -3,8 +3,8 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+const path = require('path');
 
-// You can delete this file if you're not using it
 require.resolve('babel-plugin-styled-components');
 
 exports.onCreateBabelConfig = ({ stage, actions }, pluginOptions) => {
@@ -14,5 +14,17 @@ exports.onCreateBabelConfig = ({ stage, actions }, pluginOptions) => {
     name: 'babel-plugin-styled-components',
     stage,
     options: { ...pluginOptions, ssr },
+  });
+};
+
+exports.onCreateWebpackConfig = ({
+  actions,
+}) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        'styled-components': path.resolve('./node_modules/styled-components'),
+      },
+    },
   });
 };

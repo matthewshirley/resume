@@ -5,11 +5,11 @@
  */
 import React from 'react';
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
-
-import Page from './src/components/Layout/Page';
 import Root from './src/components/Layout/Root';
 
 const sheetByPathname = new Map();
+
+export const wrapPageElement = Root;
 
 // eslint-disable-next-line react/prop-types,react/display-name
 export const wrapRootElement = ({ element, pathname }) => {
@@ -18,9 +18,7 @@ export const wrapRootElement = ({ element, pathname }) => {
 
   return (
     <StyleSheetManager sheet={sheet.instance}>
-      <Root>
-        {element}
-      </Root>
+      {element}
     </StyleSheetManager>
   );
 };
@@ -32,5 +30,3 @@ export const onRenderBody = ({ setHeadComponents, pathname }) => {
     sheetByPathname.delete(pathname);
   }
 };
-
-export const wrapPageElement = Page;
