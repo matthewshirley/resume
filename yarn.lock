@@ -839,10 +839,10 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
-"@mattshirley/design@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@mattshirley/design/-/design-0.0.3.tgz#33ce5b62a48889259a465d3836a9ce6600148aa5"
-  integrity sha512-z0E90sUb42mreZjCT+nmuBIpR1bEyg3Nyj3Ved2DSQUGw/x/nVvE/PoQLa47PQh/xGSdZd0ETj7xPUklQELUMw==
+"@mattshirley/design@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@mattshirley/design/-/design-0.0.4.tgz#5954fa04698b973aa543389a701a0996d62d9592"
+  integrity sha512-e4gi9W0C57GmxmbOAtky3mZ6afO/C3nSeqnCNfwBGTw68AdlGBgNGTKwntr0wjM8Kw5vc1S5T/KzInqbx6RnWA==
   dependencies:
     palx "^1.0.3"
     polished "^3.4.1"
@@ -1666,7 +1666,7 @@ babel-plugin-remove-graphql-queries@^2.7.2:
   resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-2.7.2.tgz#101c8b26567e35c217e817e892135a9a04a5a805"
   integrity sha512-kkIqi2+oZ7YCLbZbrhOGxPA/HuWpfvzRUxbD75SHqwxl9fZVWSLQhOUl72GEpAuEt4MeCEguKpMX100oDN3MQA==
 
-"babel-plugin-styled-components@>= 1":
+"babel-plugin-styled-components@>= 1", babel-plugin-styled-components@^1.10.6:
   version "1.10.6"
   resolved "https://registry.yarnpkg.com/babel-plugin-styled-components/-/babel-plugin-styled-components-1.10.6.tgz#f8782953751115faf09a9f92431436912c34006b"
   integrity sha512-gyQj/Zf1kQti66100PhrCRjI5ldjaze9O0M3emXRPAN80Zsf8+e1thpTpaXJXVHXtaM4/+dJEgZHyS9Its+8SA==
@@ -4513,14 +4513,6 @@ gatsby-page-utils@^0.0.5:
     lodash "^4.17.14"
     micromatch "^3.1.10"
     slash "^1.0.0"
-
-gatsby-plugin-compile-es6-packages@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-compile-es6-packages/-/gatsby-plugin-compile-es6-packages-2.1.0.tgz#eb6068d8936fd8b404716e47b821d09bf0656af7"
-  integrity sha512-yrYAAjabHWJr3ARi8xzDm01dbBfyOxEWTwGkL3BMdgL/opfLvTrwLmfium4kSelnLs70DYY3rYDwyHjqyFsnFQ==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    regex-escape "^3.4.8"
 
 gatsby-plugin-page-creator@^2.1.5:
   version "2.1.5"
@@ -8425,11 +8417,6 @@ regenerator-transform@^0.14.0:
   integrity sha512-flVuee02C3FKRISbxhXl9mGzdbWUVHubl1SMaknjxkFB1/iqpJhArQUvRxOOPEc/9tAiX0BaQ28FJH10E4isSQ==
   dependencies:
     private "^0.1.6"
-
-regex-escape@^3.4.8:
-  version "3.4.9"
-  resolved "https://registry.yarnpkg.com/regex-escape/-/regex-escape-3.4.9.tgz#407b413562e2373d56994ff213e693658ea4f8f7"
-  integrity sha512-Cv9rjwyQwVhn3L097ysanWsEElurmxDj6Cc4Ut23z7e6hzRbrNvF3Le7yAciMfuzyb0sZwSr0ZHunMNCIoy2/g==
 
 regex-not@^1.0.0, regex-not@^1.0.2:
   version "1.0.2"

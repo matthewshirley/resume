@@ -10,7 +10,7 @@ const Row = ({ title, children }) => (
     <Box className={rowStyle.header}>
       <Text color="primary" m={0} bold>{title}</Text>
     </Box>
-    <Box className={rowStyle.content} mb={4} borderBottom>
+    <Box className={rowStyle.content} mb={4}>
       <Box mb={4}>
         {children}
       </Box>
