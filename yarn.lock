@@ -834,10 +834,10 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
-"@mattshirley/design@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@mattshirley/design/-/design-0.0.6.tgz#8f332d7c1bc1c6aeaa3005363a02730db3abc11c"
-  integrity sha512-f4bXRqZ2FGrUQcbeiQM5Pm0K+Z7ksRPAFBaIvUEHTU5L6SaZAFwvSfMiQt7t/8JiWiadGV2+eEC9itOr2PszQA==
+"@mattshirley/design@^0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@mattshirley/design/-/design-0.0.11.tgz#9fe1299bc0f9cdfa5450b1761833a9f043119e05"
+  integrity sha512-KE8BiLCiXbKQLbVH9LLu78Vf6en2/v0pC2Mzw4Z5+mp54WWCdCPrl8SoZT5AXRT41j3tZ4sP6GQ+4vE7sWMO4w==
   dependencies:
     palx "^1.0.3"
     polished "^3.4.1"
