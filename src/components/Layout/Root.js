@@ -10,7 +10,7 @@ import rootStyle from './root.module.css';
 
 const Root = ({ element }) => (
   <ThemeProvider>
-    <Box className={rootStyle.container} p={[4, 5]} my={4} mx={[0, 'auto']} maxWidth={['auto', '52rem']}>
+    <Box className={rootStyle.container} p={[5, 5]} my={4} mx={[3, 'auto']} maxWidth={['auto', '52rem']}>
       {element}
     </Box>
   </ThemeProvider>

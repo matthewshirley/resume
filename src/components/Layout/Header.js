@@ -16,7 +16,7 @@ import headerGrid from './header.module.css';
 const PageHeader = ({
   name, label, email, phone,
 }) => (
-  <Box as="header" className={headerGrid.container} mb={[2, 5]}>
+  <Box as="header" className={headerGrid.container} mb={[5, 5]}>
     <Box className={headerGrid.Name}>
       <Text as="h1" color="primary" m={0}>{name}</Text>
       <Text as="small" m={0}>{label}</Text>
