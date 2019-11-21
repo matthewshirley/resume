@@ -38,7 +38,7 @@ const createPDF = async () => {
   await page.pdf({
     path: path.join(outputDirectory, filename),
     scale: 0.775,
-    pageRanges: '1', // I strcity want a one pager.
+    pageRanges: '1',
   });
 
   return browser.close();
