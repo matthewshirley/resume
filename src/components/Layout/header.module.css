@@ -1,6 +1,3 @@
-/**
- * Grid layout for the Page Header
- **/
 .container {
     display: grid;
     grid-area: Header;

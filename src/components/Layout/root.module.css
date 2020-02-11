@@ -1,6 +1,3 @@
-/**
- * Grid layout for root page
- **/
 .container {
     display: grid;
     grid-template-columns: 1fr;

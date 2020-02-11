@@ -3,16 +3,9 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 
-// Layout
-import Row from '../components/Layout/Row';
-import PageHeader from '../components/Layout/Header';
+import { Row, Header } from '../components/Layout';
+import { About, Education, Experience } from '../components/Sections';
 
-// Sections
-import About from '../components/Sections/About';
-import Education from '../components/Sections/Education';
-import Experience from '../components/Sections/Experience';
-
-// Types
 import workTypes from '../types/work';
 import educationTypes from '../types/education';
 
@@ -40,7 +33,7 @@ const Resume = ({ data: { allDataJson } }) => {
         `}
         </style>
       </Helmet>
-      <PageHeader
+      <Header
         name={name}
         label={label}
         email={email}

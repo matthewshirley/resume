@@ -1,13 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Box, Text } from '..';
+import { Text } from '..';
 
-const Content = ({ summary }) => (
-  <Box>
-    <Text fontSize={1} m={0}>{summary}</Text>
-  </Box>
-);
+const Content = ({ summary }) => <Text fontSize={1} m={0}>{summary}</Text>;
 
 Content.propTypes = {
   summary: PropTypes.string.isRequired,
