@@ -1,6 +1,4 @@
-<h1 align="center">
-  Gatsby's resume
-</h1>
+# A Gatsby Resume
 
 ## 🚀 Quick start
 
