@@ -6,16 +6,16 @@
         "email": "me@mattshirley.net",
         "phone": "+1 (778) 680 2105",
         "website": "http://mattshirley.net",
-        "summary": "Software tester and developer experienced in JavaScript, React and Python.",
+        "summary": "Software developer specializing in test development experienced with Javascript, Ruby and Python",
         "location": "British Columbia, Canada"
     },
     "work": [{
             "company": "Thoughtexchange",
-            "position": "Software Tester",
+            "position": "QA Engineer",
             "website": "http://thoughtexchange.com",
             "location": "Rossland, BC",
             "startDate": "2018-01-01",
-            "endDate": "1900-01-01",
+            "endDate": "2019-12-01",
             "summary": "",
             "highlights": [
                 "Developed and maintained a functional and integration test framework for multiple applications (Python, JavaScript)",
@@ -41,8 +41,8 @@
             ]
         },
         {
-            "company": "Freelance & Travel",
-            "position": "Web Developer",
+            "company": "Freelance",
+            "position": "Software Engineer",
             "website": "http://mattshirley.net",
             "location": "Remote",
             "startDate": "2015-10-01",
