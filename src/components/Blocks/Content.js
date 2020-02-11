@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Box, Text } from '@mattshirley/design';
+import { Box, Text } from '..';
 
 const Content = ({ summary }) => (
   <Box>

@@ -4,12 +4,17 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box, ThemeProvider } from '@mattshirley/design';
+import { ThemeProvider } from 'styled-components';
 
+import Box from '../Box';
+import PageStyle from '../../theme/global';
+
+import defaultTheme from '../../theme';
 import rootStyle from './root.module.css';
 
 const Root = ({ element }) => (
-  <ThemeProvider>
+  <ThemeProvider theme={defaultTheme}>
+    <PageStyle />
     <Box className={rootStyle.container} p={[5, 5]} my={4} mx={[3, 'auto']} maxWidth={['auto', '52rem']}>
       {element}
     </Box>

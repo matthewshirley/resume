@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box } from '@mattshirley/design';
+import { Box } from '..';
 
 import educationTypes from '../../types/education';
 
-import Header from './Block/Header';
-import Content from './Block/Content';
+import Header from '../Blocks/Header';
+import Content from '../Blocks/Content';
 
 /**
  * Block to display the Education history.

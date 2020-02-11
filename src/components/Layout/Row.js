@@ -1,8 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Box, Text } from '@mattshirley/design';
-
+import { Box, Text } from '..';
 import rowStyle from './row.module.css';
 
 const Row = ({ title, children }) => (

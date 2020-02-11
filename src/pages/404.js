@@ -1,7 +1,7 @@
 import React from 'react';
 import Helmet from 'react-helmet';
 
-import { Text } from '@mattshirley/design';
+import { Text } from '../components';
 
 const Page404 = () => (
   <>

@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Box } from '@mattshirley/design';
+import { Box } from '..';
 
 import workTypes from '../../types/work';
 
-import Header from './Block/Header';
-import Content from './Block/Content';
-import List from './Block/List';
+import Header from '../Blocks/Header';
+import Content from '../Blocks/Content';
+import List from '../Blocks/List';
 
 /**
  * Block to display work experience.

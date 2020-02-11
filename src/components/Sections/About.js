@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Content from './Block/Content';
+import Content from '../Blocks/Content';
 
 /**
- * A simple container for the 'About' section.
+ * Simple container to display a line of text
  *
  * @param {Object} props
  * @param {String} props.summary

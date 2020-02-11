@@ -31,7 +31,15 @@ const Resume = ({ data: { allDataJson } }) => {
           lang: 'en',
         }}
         title="Matt Shirley - Resume"
-      />
+
+      >
+        <style type="text/css">
+          {`
+          @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+          @import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+        `}
+        </style>
+      </Helmet>
       <PageHeader
         name={name}
         label={label}
