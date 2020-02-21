@@ -6,19 +6,20 @@
         "email": "me@mattshirley.net",
         "phone": "+1 (778) 680 2105",
         "website": "http://mattshirley.net",
-        "summary": "Software developer specializing in test development experienced with Javascript, Ruby and Python",
+        "summary": "Software developer specialized in testing with experience in JavaScript and Ruby",
         "location": "British Columbia, Canada"
     },
-    "work": [{
+    "work": [
+        {
             "company": "Thoughtexchange",
-            "position": "QA Engineer",
+            "position": "Quality Engineer",
             "website": "http://thoughtexchange.com",
             "location": "Rossland, BC",
-            "startDate": "2018-01-01",
+            "startDate": "2017-12-01",
             "endDate": "2019-12-01",
             "summary": "",
             "highlights": [
-                "Developed and maintained a functional and integration test framework for multiple applications (Python, JavaScript)",
+                "Developed and maintained a functional and integration test framework for a web application (Python, JavaScript)",
                 "Created a ChatOps tool to support the team in data creation and test processes (JavaScript)",
                 "Mentored testers in learning JavaScript, penetration testing and test development",
                 "Implemented a context-driven, risk-based test process to ensure accountability while performing exploratory testing",
@@ -27,30 +28,29 @@
         },
         {
             "company": "Huddol",
-            "position": "QA Engineer (Contract)",
+            "position": "Quality Engineer (Contract)",
             "website": "http://huddol.com",
-            "location": "Remote",
+            "location": "",
             "startDate": "2017-08-01",
             "endDate": "2019-06-01",
             "summary": "",
             "highlights": [
-                "Supported the release and development on an as needed contract basis",
                 "Reduced product backlog and developed features for a web application (React, JavaScript)",
-                "Implemented a unit and functional front-end test suite (React, JavaScript)",
+                "Implemented a unit and functional front-end test suite (Jest, Enzyme)",
                 "Analyzed development risk and performed exploratory testing on major builds"
             ]
         },
         {
-            "company": "Freelance",
-            "position": "Software Engineer",
+            "company": "Self-employed",
+            "position": "Freelance Developer",
             "website": "http://mattshirley.net",
-            "location": "Remote",
+            "location": "",
             "startDate": "2015-10-01",
             "endDate": "2017-01-01",
             "summary": "Travelled throughout Canada while working seasonlly and as a web developer.",
             "highlights": [
-                "Developed small web applications for clients located in APAC (React, JavaScript)",
-                "Continued employment with Asia Pacific Digital providing technical consultation (JavaScript)",
+                "Developed small web applications for clients using React, Express and Ruby on Rails",
+                "Continued contract employment with Asia Pacific Digital providing technical consultation (JavaScript)",
                 "Worked seasonally as a Ski Lift Operator and volunteered for a variety of causes in local communities"
             ]
         },
@@ -64,7 +64,7 @@
             "summary": "",
             "highlights": [
                 "Improved existing functionality by resolving bugs for a legacy web-application (JavaScript, PHP, SQL)",
-                "Oversaw the operations of servers and observed functions to detect any possible errors",
+                "Oversaw the operations of servers and monitored functions to detect any possible errors",
                 "Communicated and performed troubleshooting with users to resolve defects"
             ]
         }
@@ -77,7 +77,7 @@
         "startDate": "2016-01-01",
         "endDate": "2017-06-01",
         "gpa": "0",
-        "courses": "Gathered a fundamental understanding of database design, system modelling, test processes and web development."
+        "courses": "Emphasis on system and database design, testing and web development (PHP, SQL)"
     }],
     "skills": ["JavaScript", "React", "Jest", "Cypress", "Puppeteer", "Python", "Ruby", "Software Testing"]
 }
