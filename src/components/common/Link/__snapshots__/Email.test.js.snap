@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Email Link does not render without an email 1`] = `null`;
+
+exports[`Email Link renders correctly with an email address 1`] = `
+<a
+  className="sc-AxjAm bnsefY"
+  fontSize={1}
+  href="mailto:test@user.com"
+>
+  test@user.com
+</a>
+`;

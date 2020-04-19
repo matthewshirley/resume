@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Phone Link does not render without an email 1`] = `null`;
+
+exports[`Phone Link renders correctly with an email address 1`] = `
+<a
+  className="sc-AxjAm bnsefY"
+  fontSize={1}
+  href="tel:1111111111"
+>
+  1111111111
+</a>
+`;

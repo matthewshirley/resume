@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Block renders correctly 1`] = `
+<div
+  className="sc-AxjAm sc-AxhCb bNLhIJ"
+>
+  <div
+    className="sc-AxjAm fIbOII"
+  >
+    <h2
+      className="sc-AxirZ hRPtQt"
+      color="primary"
+      fontSize={3}
+    >
+      Test Block
+    </h2>
+  </div>
+  <div
+    className="sc-AxjAm jBohcl"
+  />
+</div>
+`;
+
+exports[`Block renders correctly with children 1`] = `
+<div
+  className="sc-AxjAm sc-AxhCb bNLhIJ"
+>
+  <div
+    className="sc-AxjAm fIbOII"
+  >
+    <h2
+      className="sc-AxirZ hRPtQt"
+      color="primary"
+      fontSize={3}
+    >
+      Test Block
+    </h2>
+  </div>
+  <div
+    className="sc-AxjAm jBohcl"
+  >
+    <p>
+      Test Children
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Block renders with a border 1`] = `
+<div
+  className="sc-AxjAm sc-AxhCb eOIZoi"
+>
+  <div
+    className="sc-AxjAm fIbOII"
+  >
+    <h2
+      className="sc-AxirZ ipFxQo"
+      color="primary"
+      fontSize={3}
+    >
+      Test Block
+    </h2>
+  </div>
+  <div
+    className="sc-AxjAm jBohcl"
+  />
+</div>
+`;

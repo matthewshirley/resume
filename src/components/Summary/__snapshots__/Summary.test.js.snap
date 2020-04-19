@@ -9,13 +9,13 @@ exports[`Summary renders correctly 1`] = `
   <div
     className="sc-AxjAm fIbOII"
   >
-    <p
+    <h2
       className="sc-AxirZ eKWZht"
       color="primary"
       fontSize={3}
     >
       About
-    </p>
+    </h2>
   </div>
   <div
     className="sc-AxjAm jBohcl"
