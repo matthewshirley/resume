@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import Dates from './Dates';
 
 
-describe('Summary', () => {
+describe('Dates', () => {
   it('renders correctly', () => {
     const tree = renderer
       .create(<Dates startDate="Jan 2017" endDate="Dec 2017" />)

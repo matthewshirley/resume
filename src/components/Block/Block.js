@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Box from '../Box';
-import Text from '../Text';
-import Grid from '../Grid';
+import Box from '../common/Box';
+import Text from '../common/Text';
+import Grid from '../common/Grid';
 
 const Block = ({ title, children, borderBottom }) => (
   <Grid
@@ -22,7 +22,7 @@ const Block = ({ title, children, borderBottom }) => (
     borderBottom={borderBottom}
   >
     <Box gridArea="RowTitle">
-      <Text color="primary" fontSize={3} m={0} mb={{ sm: 2, lg: 0, print: 0 }}>{title}</Text>
+      <Text as="h2" color="primary" fontSize={3} m={0} mb={{ sm: 2, lg: 0, print: 0 }}>{title}</Text>
     </Box>
     <Box gridArea="RowContent">
       {children}
@@ -31,13 +31,12 @@ const Block = ({ title, children, borderBottom }) => (
 );
 
 Block.propTypes = {
-  title: PropTypes.string,
-  borderBottom: PropTypes.bool,
+  title: PropTypes.string.isRequired,
   children: PropTypes.element.isRequired,
+  borderBottom: PropTypes.bool,
 };
 
 Block.defaultProps = {
-  title: '',
   borderBottom: false,
 };
 
