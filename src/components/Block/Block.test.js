@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import Block from './Block';
-import ThemeProviderWrapper from '../../../utils/ThemeProviderWrapper';
+import ThemeProviderWrapper from '../../utils/ThemeProviderWrapper';
 
 describe('Block', () => {
   it('renders correctly', () => {
