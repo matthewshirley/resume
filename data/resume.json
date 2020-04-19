@@ -6,7 +6,7 @@
         "email": "me@mattshirley.net",
         "phone": "+1 (778) 680 2105",
         "website": "http://mattshirley.net",
-        "summary": "Software Engineer with 3+ years expertise in test automation and methodologies, front-end development and agile processes experienced with JavaScript, Python and Ruby.",
+        "summary": "Software Engineer with 3+ years expertise in test automation and methodologies, front-end development and agile processes. Experienced with JavaScript and Ruby.",
         "location": "British Columbia, Canada"
     },
     "work": [
@@ -77,6 +77,6 @@
         "studyType": "Diploma",
         "startDate": "2016-01-01",
         "endDate": "2017-06-01",
-        "summary": "Emphasis on system and database design, testing and web development (PHP, SQL)"
+        "summary": "Coursework focused on full-stack development including web design and testing."
     }]
 }

@@ -12,7 +12,7 @@ const List = ({
   ));
 
   return (
-    <Box as="ul" mt={2} pl={{ sm: '1rem', lg: '2rem', print: '2rem'}}>
+    <Box as="ul" mt={2} pl={{ sm: '1rem', lg: '2rem', print: '2rem' }}>
       {listOfHighlights}
     </Box>
   );

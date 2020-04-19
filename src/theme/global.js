@@ -22,8 +22,10 @@ const PageStyle = createGlobalStyle`
         text-decoration: none;
     }
 
-    @page :first {
-        margin-bottom: 3rem;
+    // TODO: Find a nicer way to handle page breaks.
+    @page {
+        margin-top: 2rem;
+        margin-bottom: 7rem;
     }
 `;
 
