@@ -5,7 +5,7 @@
  */
 import React from 'react';
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
-import Root from './src/components/Layout/Root';
+import Root from './src/components/Root';
 
 const sheetByPathname = new Map();
 

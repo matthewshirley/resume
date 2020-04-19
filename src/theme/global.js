@@ -11,7 +11,7 @@ const PageStyle = createGlobalStyle`
 
     body {
         color: ${theme.colors.text};
-        font-size: ${theme.fontSizes[2]}px;
+        font-size: ${theme.fontSizes[1]}px;
         font-family: ${theme.font};
         line-height: 1.375;
         background-color: ${theme.colors.bg};
@@ -20,6 +20,10 @@ const PageStyle = createGlobalStyle`
     a {
         color: currentColor;
         text-decoration: none;
+    }
+
+    @page :first {
+        margin-bottom: 3rem;
     }
 `;
 

@@ -28,7 +28,7 @@ const createPDF = async () => {
   await mkdirp(outputDirectory);
 
   // # Start Chrome
-  const browser = await puppeteer.launch({ args: ['--no-sandbox'] });
+  const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
   const page = await browser.newPage();
 
   // # Navigate to Resume
@@ -38,7 +38,7 @@ const createPDF = async () => {
   await page.pdf({
     path: path.join(outputDirectory, filename),
     scale: 0.775,
-    pageRanges: '1',
+    pageRanges: '1 - 2',
   });
 
   return browser.close();

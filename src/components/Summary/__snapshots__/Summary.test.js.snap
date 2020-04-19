@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary does not render without a summary 1`] = `null`;
+
+exports[`Summary renders correctly 1`] = `
+<div
+  className="sc-AxjAm sc-AxhCb eGofQz"
+>
+  <div
+    className="sc-AxjAm fIbOII"
+  >
+    <p
+      className="sc-AxirZ eKWZht"
+      color="primary"
+      fontSize={3}
+    >
+      About
+    </p>
+  </div>
+  <div
+    className="sc-AxjAm jBohcl"
+  >
+    <div
+      className="sc-AxjAm kSMmJx"
+    >
+      <p
+        className="sc-AxirZ haCkUz"
+        fontSize={1}
+      >
+        Test
+      </p>
+    </div>
+  </div>
+</div>
+`;
