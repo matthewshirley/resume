@@ -10,8 +10,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
-
+  test:
     runs-on: ubuntu-latest
 
     strategy:
@@ -28,3 +27,34 @@ jobs:
     - run: yarn test
       env:
         CI: true
+
+  build:
+    needs: test
+        runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: 12.x
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+  
+    - shell: bash
+      run: |
+        yarn install
+        yarn build
+        yarn serve && yarn pdf
+
+    - name: Upload Resume
+      uses: actions/upload-artifact@v1
+      with:
+        name: resume
+        path: public/resume.pdf
+
+      env:
+        CI: true
+    

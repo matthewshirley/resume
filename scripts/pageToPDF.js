@@ -12,7 +12,7 @@ const createPDF = async () => {
   let server;
 
   const filename = 'resume.pdf';
-  const outputDirectory = path.resolve(__dirname, '..', 'public', 'resume');
+  const outputDirectory = path.resolve(__dirname, '..', 'public');
 
   // # Determine what to call the file
   if (process.env.CI) {
