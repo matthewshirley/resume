@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Phone Link does not link without a href 1`] = `"Test"`;
+
+exports[`Phone Link renders a link when a href is passed 1`] = `
+<a
+  href="google.com"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  Test
+</a>
+`;

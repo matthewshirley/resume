@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List renders correctly 1`] = `
+<ul
+  className="sc-AxjAm jKDKBO"
+>
+  <li
+    className="sc-AxirZ ilUQMD"
+    fontSize={1}
+  >
+    a
+  </li>
+  <li
+    className="sc-AxirZ ilUQMD"
+    fontSize={1}
+  >
+    b
+  </li>
+  <li
+    className="sc-AxirZ ilUQMD"
+    fontSize={1}
+  >
+    c
+  </li>
+</ul>
+`;

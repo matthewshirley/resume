@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<div
+  className="sc-AxjAm jpaSZN"
+>
+  <p
+    className="sc-AxirZ bHXHzH"
+    fontSize={1}
+  >
+    Tester
+  </p>
+  <small
+    className="sc-AxirZ inzaax"
+    fontSize={0}
+  >
+    <a
+      href="testing.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Test
+    </a>
+     - TestLand
+  </small>
+</div>
+`;
