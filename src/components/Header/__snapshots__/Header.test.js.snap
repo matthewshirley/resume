@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="sc-AxjAm sc-AxirZ liihYQ"
+>
+  <h1
+    className="sc-AxiKw sc-AxhCb dGbZkM"
+    color="primary"
+    fontSize={5}
+  >
+    Test Name
+  </h1>
+  <div
+    className="sc-AxjAm sc-AxirZ kYfuYW"
+  >
+    <a
+      className="sc-AxiKw bFEIqf"
+      fontSize={1}
+      href="mailto:test@user.com"
+    >
+      test@user.com
+    </a>
+    <a
+      className="sc-AxiKw bFEIqf"
+      fontSize={1}
+      href="tel:111 111 1111"
+    >
+      111 111 1111
+    </a>
+  </div>
+</header>
+`;
+
+exports[`Header renders correctly without a phone or email 1`] = `
+<header
+  className="sc-AxjAm sc-AxirZ liihYQ"
+>
+  <h1
+    className="sc-AxiKw sc-AxhCb dGbZkM"
+    color="primary"
+    fontSize={5}
+  >
+    Test Name
+  </h1>
+</header>
+`;

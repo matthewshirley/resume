@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary does not render without a start and end date 1`] = `null`;
+
+exports[`Summary renders correctly 1`] = `
+<p
+  className="sc-AxjAm bnsefY"
+  fontSize={1}
+>
+  Jan 2017 - Dec 2017
+</p>
+`;
+
+exports[`Summary renders with the end date as present 1`] = `
+<p
+  className="sc-AxjAm bnsefY"
+  fontSize={1}
+>
+  Jan 2017 - Present
+</p>
+`;

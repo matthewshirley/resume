@@ -6,7 +6,7 @@
         "email": "me@mattshirley.net",
         "phone": "+1 (778) 680 2105",
         "website": "http://mattshirley.net",
-        "summary": "Software developer specialized in testing with experience in JavaScript and Ruby",
+        "summary": "Software Engineer with 3+ years expertise in test automation and methodologies, front-end development and agile processes. Experienced with JavaScript and Ruby.",
         "location": "British Columbia, Canada"
     },
     "work": [
@@ -19,11 +19,12 @@
             "endDate": "2019-12-01",
             "summary": "",
             "highlights": [
-                "Developed and maintained a functional and integration test framework for a web application (Python, JavaScript)",
+                "Developed and maintained a functional and integration test framework for a monolithic web platform (JavaScript, Python)",
                 "Created a ChatOps tool to support the team in data creation and test processes (JavaScript)",
                 "Mentored testers in learning JavaScript, penetration testing and test development",
-                "Implemented a context-driven, risk-based test process to ensure accountability while performing exploratory testing",
-                "Championed growing an accessibility culture within the company"
+                "Directed the implementation of a context-driven, risk-based test process to ensure accountability while performing exploratory testing",
+                "Championed growing an accessibility culture within the company",
+                "Communicated with the support team to ensure the successful releases of features and no outstanding customer issues"
             ]
         },
         {
@@ -35,8 +36,8 @@
             "endDate": "2019-06-01",
             "summary": "",
             "highlights": [
-                "Reduced product backlog and developed features for a web application (React, JavaScript)",
-                "Implemented a unit and functional front-end test suite (Jest, Enzyme)",
+                "Resolved defects and implemented features for a React social network",
+                "Supported the implementation of a unit and functional front-end test suite (Jest, Enzyme)",
                 "Analyzed development risk and performed exploratory testing on major builds"
             ]
         },
@@ -50,7 +51,7 @@
             "summary": "Travelled throughout Canada while working seasonlly and as a web developer.",
             "highlights": [
                 "Developed small web applications for clients using React, Express and Ruby on Rails",
-                "Continued contract employment with Asia Pacific Digital providing technical consultation (JavaScript)",
+                "Continued contract employment with Asia Pacic Digital providing technical consultation (JavaScript",
                 "Worked seasonally as a Ski Lift Operator and volunteered for a variety of causes in local communities"
             ]
         },
@@ -76,8 +77,6 @@
         "studyType": "Diploma",
         "startDate": "2016-01-01",
         "endDate": "2017-06-01",
-        "gpa": "0",
-        "courses": "Emphasis on system and database design, testing and web development (PHP, SQL)"
-    }],
-    "skills": ["JavaScript", "React", "Jest", "Cypress", "Puppeteer", "Python", "Ruby", "Software Testing"]
+        "summary": "Coursework focused on full-stack development including web design and testing."
+    }]
 }
