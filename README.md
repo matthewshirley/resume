@@ -1,4 +1,6 @@
-# A Gatsby Resume
+# Gatsby Resume
+
+![CI](https://github.com/matthewshirley/resume/workflows/CI/badge.svg)
 
 ## 🚀 Quick start
 
