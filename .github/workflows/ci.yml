@@ -43,13 +43,17 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
   
-    - shell: bash
+    - name: Build and Serve
+      shell: bash
       run: |
         yarn install
         yarn build
-        yarn serve && yarn pdf
+        yarn serve
 
-    - name: Upload Resume
+    - name: Generate PDF
+      run: yarn pdf
+
+    - name: Upload PDF
       uses: actions/upload-artifact@v1
       with:
         name: resume
