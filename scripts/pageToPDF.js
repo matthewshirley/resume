@@ -10,18 +10,15 @@ const puppeteer = require('puppeteer');
  */
 const createPDF = async () => {
   let server;
-  let filename;
-  let outputDirectory;
+
+  const filename = 'resume.pdf';
+  const outputDirectory = path.resolve(__dirname, '..', 'public', 'resume');
 
   // # Determine what to call the file
-  if (process.env.NODE_ENV === 'production') {
-    server = 'https://resume.mattshirley.net';
-    filename = 'resume.pdf';
-    outputDirectory = path.resolve(__dirname, '..', 'public', 'prod');
+  if (process.env.CI) {
+    server = 'http://localhost:9000';
   } else {
     server = 'http://localhost:8000';
-    filename = `Resume - ${Date.now()}.pdf`;
-    outputDirectory = path.resolve(__dirname, '..', 'public', 'staging');
   }
 
   // # Create output directory
