@@ -48,7 +48,7 @@ jobs:
       run: |
         yarn install
         yarn build
-        yarn serve
+        yarn serve &
 
     - name: Generate PDF
       run: yarn pdf
