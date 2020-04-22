@@ -12,7 +12,7 @@ const Header = ({
     <Text m={0} mr={1} bold>
       {position}
     </Text>
-    <Text as="small" fontSize={0} m={0}>
+    <Text as="small" m={0}>
       <Link href={website}>{company}</Link>
       {location && ` - ${location}`}
     </Text>

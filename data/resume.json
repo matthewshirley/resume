@@ -6,39 +6,54 @@
         "email": "me@mattshirley.net",
         "phone": "+1 (778) 680 2105",
         "website": "http://mattshirley.net",
-        "summary": "Software Engineer with 3+ years expertise in test automation and methodologies, front-end development and agile processes. Experienced with JavaScript and Ruby.",
+        "github": "matthewshirley",
+        "summary": "Software Engineer with 3+ years expertise in test automation and front-end development. Experienced with Javascript and Ruby.",
         "location": "British Columbia, Canada"
     },
     "work": [
+        {
+            "company": "Wiivv",
+            "position": "Quality Engineer",
+            "website": "http://wiivv.com",
+            "location": "Vancouver, BC",
+            "startDate": "2019-11-01",
+            "endDate": "2020-05-01",
+            "summary": "",
+            "highlights": [
+                "Developed unit and integration tests for back-end web services (JavaScript)",
+                "Reduce bottlenecks for the Care and Biomedical teams by developing a tool to automate repetitive tasks (Ruby)",
+                "Performed testing for mobile applications and back-end services"
+
+            ]
+        },
+        {
+            "company": "Huddol",
+            "position": "Software Developer (Contract)",
+            "website": "http://huddol.com",
+            "location": "",
+            "startDate": "2017-08-01",
+            "endDate": "2020-04-01",
+            "summary": "",
+            "highlights": [
+                "Fixed defects and annoyances for a React project (JavaScript)",
+                "Supported the implementation of a video chat service using React and Twilio by improving the user experience and responsiveness (JavaScript)",
+                "Improved development confidence by implementing an automated test framework for component testing (JavaScript)",
+                "Performed regression and exploratory testing for a social media platform"
+            ]
+        },
         {
             "company": "Thoughtexchange",
             "position": "Quality Engineer",
             "website": "http://thoughtexchange.com",
             "location": "Rossland, BC",
             "startDate": "2017-12-01",
-            "endDate": "2019-12-01",
+            "endDate": "2019-11-01",
             "summary": "",
             "highlights": [
-                "Developed and maintained a functional and integration test framework for a monolithic web platform (JavaScript, Python)",
-                "Created a ChatOps tool to support the team in data creation and test processes (JavaScript)",
-                "Mentored testers in learning JavaScript, penetration testing and test development",
-                "Directed the implementation of a context-driven, risk-based test process to ensure accountability while performing exploratory testing",
-                "Championed growing an accessibility culture within the company",
-                "Communicated with the support team to ensure the successful releases of features and no outstanding customer issues"
-            ]
-        },
-        {
-            "company": "Huddol",
-            "position": "Quality Engineer (Contract)",
-            "website": "http://huddol.com",
-            "location": "",
-            "startDate": "2017-08-01",
-            "endDate": "2019-06-01",
-            "summary": "",
-            "highlights": [
-                "Resolved defects and implemented features for a React social network",
-                "Supported the implementation of a unit and functional front-end test suite (Jest, Enzyme)",
-                "Analyzed development risk and performed exploratory testing on major builds"
+                "Implemented and maintained a end to end automated test framework (Javascript, Python)",
+                "Reduced time to create and populate test environments by developing a data generation tool (Javascript)",
+                "Championed an accessibility culture within the company and developed testing guidelines to satisfy regulation and compliance",
+                "Performed risk-based, exploratory testing to support an efficient feedback loop"
             ]
         },
         {
@@ -46,13 +61,12 @@
             "position": "Freelance Developer",
             "website": "http://mattshirley.net",
             "location": "",
-            "startDate": "2015-10-01",
-            "endDate": "2017-01-01",
-            "summary": "Travelled throughout Canada while working seasonlly and as a web developer.",
+            "startDate": "2015-11-01",
+            "endDate": "2017-06-01",
+            "summary": "Took a sabbatical for a year and a half to travel Canada to freelance and study.",
             "highlights": [
-                "Developed small web applications for clients using React, Express and Ruby on Rails",
-                "Continued contract employment with Asia Pacic Digital providing technical consultation (JavaScript",
-                "Worked seasonally as a Ski Lift Operator and volunteered for a variety of causes in local communities"
+                "Developed small web applications for clients using React and Ruby on Rails",
+                "Continued contract employment with Asia Pacific Digital providing technical consultation"
             ]
         },
         {
@@ -64,9 +78,10 @@
             "endDate": "2015-10-01",
             "summary": "",
             "highlights": [
-                "Improved existing functionality by resolving bugs for a legacy web-application (JavaScript, PHP, SQL)",
-                "Oversaw the operations of servers and monitored functions to detect any possible errors",
-                "Communicated and performed troubleshooting with users to resolve defects"
+                "Reduced the rate of undeliverable SMS messages by redesigning the queueing algorithm (PHP)",
+                "Resolved defects for a messaging and email platform (Javascript, SQL)",
+                "Communicated with delivery partners to maintain cost-effective and efficient SMS routing",
+                "Performed troubleshooting internally and externally to resolve technical and billing issues"
             ]
         }
     ],
@@ -77,6 +92,6 @@
         "studyType": "Diploma",
         "startDate": "2016-01-01",
         "endDate": "2017-06-01",
-        "summary": "Coursework focused on full-stack development including web design and testing."
+        "summary": "Coursework focused on databases, full-stack development, testing planning and project management foundations"
     }]
 }

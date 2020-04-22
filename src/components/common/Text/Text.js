@@ -16,7 +16,7 @@ const Text = styled.p`
 `;
 
 Text.defaultProps = {
-  fontSize: 1,
+  fontSize: 0,
 };
 
 export default Text;

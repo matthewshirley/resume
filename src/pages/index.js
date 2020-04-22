@@ -16,12 +16,12 @@ const Resume = ({ data: { allDataJson } }) => {
     basics, education, work,
   } = allDataJson.edges[0].node;
   const {
-    name, email, phone, summary,
+    name, email, phone, summary, github,
   } = basics;
 
   return (
     <Layout>
-      <Header name={name} email={email} phone={phone} />
+      <Header name={name} email={email} phone={phone} github={github} />
 
       <Box as="main" gridArea="content">
         <Summary summary={summary} />
@@ -43,6 +43,7 @@ Resume.propTypes = {
               email: PropTypes.string,
               phone: PropTypes.string,
               summary: PropTypes.string,
+              github: PropTypes.string,
             }),
             education: PropTypes.arrayOf(
               PropTypes.shape({ ...educationTypes }),
@@ -68,6 +69,7 @@ export const pageQuery = graphql`
           picture
           email
           phone
+          github
           website
           summary
         }
