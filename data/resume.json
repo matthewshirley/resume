@@ -37,8 +37,8 @@
             "highlights": [
                 "Fixed defects and annoyances for a large React project (JavaScript)",
                 "Supported the implementation of a video chat service using React and Twilio (JavaScript)",
-                "Improved development confidence by implementing an automated test framework for component testing (JavaScript)",
-                "Performed regression and exploratory testing for a social media platform"
+                "Improved development confidence by implementing component tests (JavaScript)",
+                "Performed manual regression and exploratory testing"
             ]
         },
         {
@@ -50,10 +50,10 @@
             "endDate": "2019-11-01",
             "summary": "",
             "highlights": [
-                "Implemented and maintained a end to end automated test framework (Javascript, Python)",
-                "Reduced time to create and populate test environments by developing a data generation tool (Javascript)",
+                "Implemented and maintained an automated end to end test framework (Javascript, Python)",
+                "Reduced the time to create and populate test environments by developing a data generation tool (Javascript)",
                 "Guided an accessibility culture within the company and developed testing guidelines to satisfy regulation and compliance",
-                "Simplified testing approach by implementing a risk-based, exploratory testing methodology to reduce regression testing by 5 days",
+                "Simplified test approach by implementing a risk-based, exploratory testing methodology to reduce regression testing by 5 days",
                 "Taught and mentored testers in automation, test processes and penetration testing"
             ]
         },
