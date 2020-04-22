@@ -7,7 +7,7 @@
         "phone": "+1 (778) 680 2105",
         "website": "http://mattshirley.net",
         "github": "matthewshirley",
-        "summary": "Software Developer with 3+ years of expertise in test automation and front-end development experienced with Javascript and Ruby.",
+        "summary": "Software Developer with 3+ years of expertise in test automation and front-end development experienced with JavaScript and Ruby.",
         "location": "British Columbia, Canada"
     },
     "work": [
@@ -50,8 +50,8 @@
             "endDate": "2019-11-01",
             "summary": "",
             "highlights": [
-                "Implemented and maintained an automated end to end test framework (Javascript, Python)",
-                "Reduced the time to create and populate test environments by developing a data generation tool (Javascript)",
+                "Implemented and maintained an automated end to end test framework (JavaScript, Python)",
+                "Reduced the time to create and populate test environments by developing a data generation tool (JavaScript)",
                 "Guided an accessibility culture within the company and developed testing guidelines to satisfy regulation and compliance",
                 "Simplified the test approach by implementing a risk-based exploratory testing methodology to reducing testing cycle by five days",
                 "Taught and mentored testers in automation, test processes and penetration testing"
@@ -80,7 +80,7 @@
             "summary": "",
             "highlights": [
                 "Increased throughput of SMS messages by redesigning the queueing algorithm (PHP)",
-                "Resolved defects for a messaging and email platform (Javascript, SQL)",
+                "Resolved defects for a messaging and email platform (JavaScript, SQL)",
                 "Liaised with delivery partners to reduce the cost per SMS send to under 4 cents",
                 "Communicated with internal and external users to provide troubleshooting, technical support and resolve billing issues"
             ]
