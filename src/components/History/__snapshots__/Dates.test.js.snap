@@ -4,8 +4,8 @@ exports[`Dates does not render without a start and end date 1`] = `null`;
 
 exports[`Dates renders correctly 1`] = `
 <p
-  className="sc-AxjAm bnsefY"
-  fontSize={1}
+  className="sc-AxjAm vpaa"
+  fontSize={0}
 >
   Jan 2017 - Dec 2017
 </p>
@@ -13,8 +13,8 @@ exports[`Dates renders correctly 1`] = `
 
 exports[`Dates renders with the end date as present 1`] = `
 <p
-  className="sc-AxjAm bnsefY"
-  fontSize={1}
+  className="sc-AxjAm vpaa"
+  fontSize={0}
 >
   Jan 2017 - Present
 </p>

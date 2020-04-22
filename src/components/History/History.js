@@ -34,8 +34,8 @@ const History = ({ title, history, skipBorder }) => {
     const isLastElement = index === (history.length - 1);
 
     return (
-      <Box paddingBottom={3} borderBottom={!skipBorder && isLastElement}>
-        <Flexbox justifyContent="space-between" marginBottom={2}>
+      <Box paddingBottom={skipBorder && 3} borderBottom={!skipBorder && isLastElement}>
+        <Flexbox justifyContent="space-between" marginBottom={3}>
           <Header position={position || `${studyType} of ${area}`} company={company || institution} location={location} website={website} />
           <Dates startDate={startDate} endDate={endDate} />
         </Flexbox>

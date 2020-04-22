@@ -10,9 +10,9 @@ exports[`Summary renders correctly 1`] = `
     className="sc-AxjAm fIbOII"
   >
     <h2
-      className="sc-AxirZ eKWZht"
+      className="sc-AxirZ eLkLUc"
       color="primary"
-      fontSize={3}
+      fontSize={2}
     >
       About
     </h2>
@@ -21,11 +21,11 @@ exports[`Summary renders correctly 1`] = `
     className="sc-AxjAm jBohcl"
   >
     <div
-      className="sc-AxjAm kSMmJx"
+      className="sc-AxjAm eZUTlP"
     >
       <p
-        className="sc-AxirZ haCkUz"
-        fontSize={1}
+        className="sc-AxirZ inzaax"
+        fontSize={0}
       >
         Test
       </p>

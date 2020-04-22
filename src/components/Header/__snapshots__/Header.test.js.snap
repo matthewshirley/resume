@@ -15,15 +15,15 @@ exports[`Header renders correctly 1`] = `
     className="sc-AxjAm sc-AxirZ kYfuYW"
   >
     <a
-      className="sc-AxiKw bFEIqf"
-      fontSize={1}
+      className="sc-AxiKw bGkECt"
+      fontSize={0}
       href="mailto:test@user.com"
     >
       test@user.com
     </a>
     <a
-      className="sc-AxiKw bFEIqf"
-      fontSize={1}
+      className="sc-AxiKw bGkECt"
+      fontSize={0}
       href="tel:111 111 1111"
     >
       111 111 1111
