@@ -7,7 +7,7 @@
         "phone": "+1 (778) 680 2105",
         "website": "http://mattshirley.net",
         "github": "matthewshirley",
-        "summary": "Software Engineer with 3+ years expertise in test automation and front-end development. Experienced with Javascript and Ruby.",
+        "summary": "Software Developer with 3+ years of expertise in test automation and front-end development experienced with Javascript and Ruby.",
         "location": "British Columbia, Canada"
     },
     "work": [
@@ -53,7 +53,7 @@
                 "Implemented and maintained an automated end to end test framework (Javascript, Python)",
                 "Reduced the time to create and populate test environments by developing a data generation tool (Javascript)",
                 "Guided an accessibility culture within the company and developed testing guidelines to satisfy regulation and compliance",
-                "Simplified test approach by implementing a risk-based, exploratory testing methodology to reduce regression testing by 5 days",
+                "Simplified the test approach by implementing a risk-based exploratory testing methodology to reducing testing cycle by five days",
                 "Taught and mentored testers in automation, test processes and penetration testing"
             ]
         },
@@ -81,7 +81,7 @@
             "highlights": [
                 "Increased throughput of SMS messages by redesigning the queueing algorithm (PHP)",
                 "Resolved defects for a messaging and email platform (Javascript, SQL)",
-                "Liased with delivery partners to reduce the cost per SMS send to under 4 cents",
+                "Liaised with delivery partners to reduce the cost per SMS send to under 4 cents",
                 "Communicated with internal and external users to provide troubleshooting, technical support and resolve billing issues"
             ]
         }
