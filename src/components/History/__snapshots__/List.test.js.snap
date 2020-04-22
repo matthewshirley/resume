@@ -5,20 +5,20 @@ exports[`List renders correctly 1`] = `
   className="sc-AxjAm jKDKBO"
 >
   <li
-    className="sc-AxirZ ilUQMD"
-    fontSize={1}
+    className="sc-AxirZ imAMYR"
+    fontSize={0}
   >
     a
   </li>
   <li
-    className="sc-AxirZ ilUQMD"
-    fontSize={1}
+    className="sc-AxirZ imAMYR"
+    fontSize={0}
   >
     b
   </li>
   <li
-    className="sc-AxirZ ilUQMD"
-    fontSize={1}
+    className="sc-AxirZ imAMYR"
+    fontSize={0}
   >
     c
   </li>

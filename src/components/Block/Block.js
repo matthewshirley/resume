@@ -22,7 +22,7 @@ const Block = ({ title, children, borderBottom }) => (
     borderBottom={borderBottom}
   >
     <Box gridArea="RowTitle">
-      <Text as="h2" color="primary" fontSize={3} m={0} mb={{ sm: 2, lg: 0, print: 0 }}>{title}</Text>
+      <Text as="h2" color="primary" fontSize={2} m={0} mb={{ sm: 2, lg: 0, print: 0 }}>{title}</Text>
     </Box>
     <Box gridArea="RowContent">
       {children}

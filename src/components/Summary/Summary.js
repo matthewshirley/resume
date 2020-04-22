@@ -10,7 +10,7 @@ const Summary = ({ summary }) => {
 
   return (
     <Block title="About">
-      <Box paddingBottom={4} borderBottom>
+      <Box paddingBottom={3} borderBottom>
         <Text m={0}>{summary}</Text>
       </Box>
     </Block>

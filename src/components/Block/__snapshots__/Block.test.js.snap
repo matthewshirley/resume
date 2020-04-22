@@ -8,9 +8,9 @@ exports[`Block renders correctly 1`] = `
     className="sc-AxjAm fIbOII"
   >
     <h2
-      className="sc-AxirZ hRPtQt"
+      className="sc-AxirZ jaRDmo"
       color="primary"
-      fontSize={3}
+      fontSize={2}
     >
       Test Block
     </h2>
@@ -29,9 +29,9 @@ exports[`Block renders correctly with children 1`] = `
     className="sc-AxjAm fIbOII"
   >
     <h2
-      className="sc-AxirZ hRPtQt"
+      className="sc-AxirZ jaRDmo"
       color="primary"
-      fontSize={3}
+      fontSize={2}
     >
       Test Block
     </h2>
@@ -54,9 +54,9 @@ exports[`Block renders with a border 1`] = `
     className="sc-AxjAm fIbOII"
   >
     <h2
-      className="sc-AxirZ ipFxQo"
+      className="sc-AxirZ cXGILF"
       color="primary"
-      fontSize={3}
+      fontSize={2}
     >
       Test Block
     </h2>

@@ -5,8 +5,8 @@ exports[`Header renders correctly 1`] = `
   className="sc-AxjAm jpaSZN"
 >
   <p
-    className="sc-AxirZ bHXHzH"
-    fontSize={1}
+    className="sc-AxirZ hOYLcl"
+    fontSize={0}
   >
     Tester
   </p>
