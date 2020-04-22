@@ -21,8 +21,8 @@
             "summary": "",
             "highlights": [
                 "Developed unit and integration tests for back-end web services (JavaScript)",
-                "Reduce bottlenecks for the Care and Biomedical teams by developing a tool to automate repetitive tasks (Ruby)",
-                "Performed testing for mobile applications and back-end services"
+                "Reduced customer complaints by developing a tool to automate repetitive tasks for the Care and Biomedical teams (Ruby)",
+                "Tested Android and iOS applications, back-end services and internal tools"
 
             ]
         },
@@ -35,8 +35,8 @@
             "endDate": "2020-04-01",
             "summary": "",
             "highlights": [
-                "Fixed defects and annoyances for a React project (JavaScript)",
-                "Supported the implementation of a video chat service using React and Twilio by improving the user experience and responsiveness (JavaScript)",
+                "Fixed defects and annoyances for a large React project (JavaScript)",
+                "Supported the implementation of a video chat service using React and Twilio (JavaScript)",
                 "Improved development confidence by implementing an automated test framework for component testing (JavaScript)",
                 "Performed regression and exploratory testing for a social media platform"
             ]
@@ -52,8 +52,9 @@
             "highlights": [
                 "Implemented and maintained a end to end automated test framework (Javascript, Python)",
                 "Reduced time to create and populate test environments by developing a data generation tool (Javascript)",
-                "Championed an accessibility culture within the company and developed testing guidelines to satisfy regulation and compliance",
-                "Performed risk-based, exploratory testing to support an efficient feedback loop"
+                "Guided an accessibility culture within the company and developed testing guidelines to satisfy regulation and compliance",
+                "Simplified testing approach by implementing a risk-based, exploratory testing methodology to reduce regression testing by 5 days",
+                "Taught and mentored testers in automation, test processes and penetration testing"
             ]
         },
         {
@@ -63,7 +64,7 @@
             "location": "",
             "startDate": "2015-11-01",
             "endDate": "2017-06-01",
-            "summary": "Took a sabbatical for a year and a half to travel Canada to freelance and study.",
+            "summary": "Took a sabbatical for a year and a half to travel Canada, freelance and study.",
             "highlights": [
                 "Developed small web applications for clients using React and Ruby on Rails",
                 "Continued contract employment with Asia Pacific Digital providing technical consultation"
@@ -78,10 +79,10 @@
             "endDate": "2015-10-01",
             "summary": "",
             "highlights": [
-                "Reduced the rate of undeliverable SMS messages by redesigning the queueing algorithm (PHP)",
+                "Increased throughput of SMS messages by redesigning the queueing algorithm (PHP)",
                 "Resolved defects for a messaging and email platform (Javascript, SQL)",
-                "Communicated with delivery partners to maintain cost-effective and efficient SMS routing",
-                "Performed troubleshooting internally and externally to resolve technical and billing issues"
+                "Liased with delivery partners to reduce the cost per SMS send to under 4 cents",
+                "Communicated with internal and external users to provide troubleshooting, technical support and resolve billing issues"
             ]
         }
     ],
