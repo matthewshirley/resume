@@ -13,7 +13,7 @@
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-json": "^2.2.26",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^25.3.0",
+    "jest": "^26.6.3",
     "mkdirp": "^1.0.3",
     "palx": "^1.0.3",
     "prop-types": "^15.7.2",
