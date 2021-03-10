@@ -8,7 +8,7 @@
     "babel-jest": "^25.3.0",
     "babel-plugin-styled-components": "^1.10.6",
     "babel-preset-gatsby": "^0.3.3",
-    "gatsby": "^2.19.15",
+    "gatsby": "^2.32.11",
     "gatsby-plugin-react-helmet": "^3.1.22",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-json": "^2.2.26",
